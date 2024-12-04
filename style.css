@@ -1,0 +1,96 @@
+body{
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+nav {
+
+    height: 90px;
+    display: flex;
+    background-color:rgb(18, 19, 18);
+}
+
+nav .titre{
+    
+    font-size: 80px;
+    color: white;
+}
+nav .navbar-brand{
+    margin: 30px;
+    font-size: 50px;
+    color: rgb(147, 139, 29);
+}
+nav #navbarNavAltMarkup{
+    display: block;
+    font-size: 20px;
+    
+}
+a.nav-item.nav-link{
+ color: white;
+}
+
+.hero{
+    background-image: url(https://content.thewosgroup.com/rolex/certified-pre-owned/landing-page-homepage-push-banner.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero h1 {
+ font-size: 4rem;   
+ font-weight: bold;
+}
+.hero a{
+    margin-top: 20px;
+}
+
+button.btn.btn-success{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div.container{
+    margin-top: auto;
+    padding: 20px;
+}
+h2{
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+
+}
+form{
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin: 20px;
+    border: 30px;
+    
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.form-control{
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(18, 19, 18);
+    
+}
+div.card.text-center{
+    background-color: rgb(18, 19, 18);
+    color: white;
+}
